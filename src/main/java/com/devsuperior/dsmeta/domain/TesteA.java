@@ -2,26 +2,28 @@ package com.devsuperior.dsmeta.domain;
 
 public class TesteA {
 
-    private String nome;
+    private String name;
     private String rua;
     private String bairro;
     private String complemento;
     private String city;
-    private String state;
+    private String estado;
 
-    public TesteA(String nome, String rua, String bairro, String complemento) {
-        this.nome = nome;
+    public TesteA(String name, String rua, String bairro, String complemento, String city, String estado) {
+        this.name = name;
         this.rua = rua;
         this.bairro = bairro;
         this.complemento = complemento;
+        this.city = city;
+        this.estado = estado;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getRua() {
@@ -56,11 +58,11 @@ public class TesteA {
         this.city = city;
     }
 
-    public String getState() {
-        return state;
+    public String getEstado() {
+        return estado;
     }
 
-    public void setState(String state) {
-        this.state = state;
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 }
