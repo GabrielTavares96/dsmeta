@@ -9,13 +9,8 @@ public class TesteA {
     private String city;
     private String estado;
 
-    public TesteA(String name, String rua, String bairro, String complemento, String city, String estado) {
-        this.name = name;
-        this.rua = rua;
+    public TesteA(String nome, String street, String bairro, String complement) {
         this.bairro = bairro;
-        this.complemento = complemento;
-        this.city = city;
-        this.estado = estado;
     }
 
     public String getName() {

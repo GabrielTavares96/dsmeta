@@ -2,61 +2,59 @@ package com.devsuperior.dsmeta.domain;
 
 public class TesteB {
     private String nome;
-    private String rua;
+    private String street;
     private String bairro;
-    private String complemento;
-    private String city;
+    private String complement;
+    private String cidade;
     private String state;
 
-    public TesteB(String nome, String rua, String bairro, String complemento) {
+    public TesteB(String nome, String street, String bairro, String complement) {
         this.nome = nome;
-        this.rua = rua;
-        this.bairro = bairro;
-        this.complemento = complemento;
+        this.complement = complement;
     }
 
     public String getNome() {
-        return nome;
+        return null;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getRua() {
-        return rua;
+    public String getStreet() {
+        return null;
     }
 
-    public void setRua(String rua) {
-        this.rua = rua;
+    public void setStreet(String street) {
+        this.street = street;
     }
 
     public String getBairro() {
-        return bairro;
+        return null;
     }
 
     public void setBairro(String bairro) {
         this.bairro = bairro;
     }
 
-    public String getComplemento() {
-        return complemento;
+    public String getComplement() {
+        return null;
     }
 
-    public void setComplemento(String complemento) {
-        this.complemento = complemento;
+    public void setComplement(String complement) {
+        this.complement = complement;
     }
 
-    public String getCity() {
-        return city;
+    public String getCidade() {
+        return cidade;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
     }
 
     public String getState() {
-        return state;
+        return null;
     }
 
     public void setState(String state) {
