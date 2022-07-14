@@ -1,7 +1,6 @@
 package com.devsuperior.dsmeta.domain;
 
-public class TesteA {
-
+public class TesteB {
     private String nome;
     private String street;
     private String bairro;
@@ -9,7 +8,7 @@ public class TesteA {
     private String cidade;
     private String state;
 
-    public TesteA(String nome, String street, String bairro, String complement) {
+    public TesteB(String nome, String street, String bairro, String complement) {
         this.nome = nome;
         this.complement = complement;
     }
